@@ -1,15 +1,15 @@
 {
-  "name": "extra-katas",
-  "version": "1.0.0",
-  "description": "These katas are taken from [codewars.com]() and are to be completed with TDD. In some cases the descriptions have been modified so please read the README in each directory for instructions.",
-  "main": "index.js",
-  "scripts": {
-    "test": "mocha ./spec",
-    "lint": "semistandard | snazzy --verbose"
-  },
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "jest": "^28.1.0"
-  }
+   "name": "extra-katas",
+   "version": "1.0.0",
+   "description": "These katas are taken from [codewars.com]() and are to be completed with TDD. In some cases the descriptions have been modified so please read the README in each directory for instructions.",
+   "main": "index.js",
+   "scripts": {
+      "test": "jest",
+      "lint": "semistandard | snazzy --verbose"
+   },
+   "author": "",
+   "license": "ISC",
+   "devDependencies": {
+      "jest": "^28.1.0"
+   }
 }
