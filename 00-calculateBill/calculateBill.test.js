@@ -7,7 +7,7 @@ test('should return correct total', () => {
    expect(result).toBe("$104");
 });
 
-test('should return correct total, whrn currency is Euro', () => {
+test('should return correct total, when currency is Euro', () => {
 
    var result = calculateBill(80, 0.2, 0.1, 'Eur')
 
